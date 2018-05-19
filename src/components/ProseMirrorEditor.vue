@@ -2,61 +2,61 @@
   <div></div>
 </template>
 <script>
-import {schema} from "prosemirror-schema-basic"
 import {EditorState} from "prosemirror-state"
 import {EditorView} from "prosemirror-view"
 import {undo, redo, history} from "prosemirror-history"
 import {keymap} from "prosemirror-keymap"
 import {baseKeymap} from "prosemirror-commands"
 
+import {mySchema} from "./mySchema"
+
 export default {
   name: 'ProseMirrorEditor',
+  props: {
+    item: {
+      type: Object,
+      required: true
+    },
+  },
   data() {
     return {
-      state: {
-        "doc": {
-          "type": "doc",
-          "content": [
-            {
-              "type": "paragraph",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "omg abc 123"
-                }
-              ]
-            }
-          ]
-        },
-        "selection": {
-          "type": "text",
-          "anchor": 5,
-          "head": 5
-        }
-      }
+      editorState: null,
+      editorView: null,
+      editMode: true
     }
   },
+  computed: {
+    state() {
+      return this.item.pmState;
+    }
+  },
+  methods: {
+  },
   mounted() {
-    let state = EditorState.fromJSON({
-      schema,
+    this.editorState = EditorState.fromJSON({
+      schema : mySchema,
       plugins: [
         history(),
         keymap({"Mod-z": undo, "Mod-y": redo}),
         keymap(baseKeymap)
       ]
     }, this.state )
-    let view = new EditorView(this.$root.$el, {
-      state,
-      dispatchTransaction(transaction) {
+
+    this.editorView = new EditorView(this.$el, {
+      state: this.editorState,
+      dispatchTransaction: transaction => {
         console.log("Document size went from", transaction.before.content.size,
           "to", transaction.doc.content.size)
-        let newState = view.state.apply(transaction)
-        view.updateState(newState)
+        let newState = this.editorView.state.apply(transaction)
+        this.editorView.updateState(newState)
+      },
+      editable: state => {
+        console.log(state)
+        return this.editMode;
       }
     })
-    view.focus()
 
-    this.$once('hook:beforeDestroy', () => view.destroy());
+    this.$once('hook:beforeDestroy', () => this.editorView.destroy());
   }
 }
 </script>

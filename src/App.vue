@@ -1,12 +1,20 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <ProseMirrorEditor/>
+    <template v-for="item in items">
+      <ProseMirrorEditor
+        :id="item.id"
+        :key="item.id"
+        :item="item"/>
+    </template>
   </div>
 </template>
 
 <script>
 import ProseMirrorEditor from './components/ProseMirrorEditor.vue'
+import uuid from 'uuidv4'
+
+import rteStates from './rte-states.json'
 
 export default {
   name: 'app',
@@ -15,12 +23,25 @@ export default {
   },
   data() {
     return {
-      vtree: {
-        tag: 'h1',
-        data: {},
-        children: ['hello world']
-      }
+      items : []
     }
+  },
+  mounted() {
+    const newItems = rteStates
+      .map( Object.freeze )
+      .map( pmState => ({
+        id: uuid(),
+        type: 'rich-text',
+        opacity: 1,
+        fontFamily: 'Droid Serif',
+        fontSize: 31,
+        lineHeight: 1.5,
+        lineSpacing: 26,
+        textAlignment: 'center',
+        pmState
+      }))
+
+    this.items = this.items.concat( newItems )
   }
 }
 </script>
