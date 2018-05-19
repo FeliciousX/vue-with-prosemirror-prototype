@@ -1,0 +1,546 @@
+[
+  {
+    "doc": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "bullet_list",
+          "content": [
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(65, 117, 5);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "H4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(245, 166, 35);"
+                          }
+                        }
+                      ],
+                      "text": ": D"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(245, 166, 35);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "o"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(208, 2, 27);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "u"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(208, 2, 27);"
+                          }
+                        }
+                      ],
+                      "text": "b"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(208, 2, 27);"
+                          }
+                        }
+                      ],
+                      "text": "le c"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(74, 144, 226);"
+                          }
+                        }
+                      ],
+                      "text": "lic"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(74, 144, 226);"
+                          }
+                        }
+                      ],
+                      "text": "k"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ],
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "t"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(255, 204, 231);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "o"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(255, 204, 231);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": " e"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(255, 204, 231);"
+                          }
+                        }
+                      ],
+                      "text": "di"
+                    },
+                    {
+                      "type": "text",
+                      "text": "t"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "selection": {
+      "type": "text",
+      "anchor": 3,
+      "head": 3
+    }
+  },
+  {
+    "doc": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "bullet_list",
+          "content": [
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(65, 117, 5);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "H4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(245, 166, 35);"
+                          }
+                        }
+                      ],
+                      "text": ": D"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(245, 166, 35);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "o"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(208, 2, 27);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "u"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(208, 2, 27);"
+                          }
+                        }
+                      ],
+                      "text": "b"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(208, 2, 27);"
+                          }
+                        }
+                      ],
+                      "text": "le c"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(74, 144, 226);"
+                          }
+                        }
+                      ],
+                      "text": "lic"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(74, 144, 226);"
+                          }
+                        }
+                      ],
+                      "text": "k"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "strong"
+                        }
+                      ],
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "t"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "em"
+                        },
+                        {
+                          "type": "strong"
+                        },
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(255, 204, 231);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": "o"
+                    },
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(255, 204, 231);"
+                          }
+                        },
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "text": " e"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "div",
+                  "content": [
+                    {
+                      "type": "text",
+                      "marks": [
+                        {
+                          "type": "color",
+                          "attrs": {
+                            "style": "color:rgb(255, 204, 231);"
+                          }
+                        }
+                      ],
+                      "text": "di"
+                    },
+                    {
+                      "type": "text",
+                      "text": "t"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "selection": {
+      "type": "text",
+      "anchor": 3,
+      "head": 3
+    }
+  }
+]
